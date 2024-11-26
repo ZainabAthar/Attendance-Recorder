@@ -1,0 +1,289 @@
+
+/* General Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Login Container Styling */
+  .login-container {
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  .login-container h2 {
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .login-container .subtext {
+    color: #555;
+    margin-bottom: 20px;
+    font-size: 14px;
+  }
+  
+  /* Form Styling */
+  .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  .form-group label {
+    display: block;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+  }
+  
+  .form-group input:focus,
+  .form-group select:focus {
+    border-color: #333;
+    outline: none;
+  }
+  
+  /* Button Styling */
+  .login-button {
+    background-color: #333;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  .login-button:hover {
+    background-color: #555;
+    color: white;
+  }
+
+  /* General Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Dashboard Container */
+.dashboard-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Header Styling */
+.dashboard-container h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.dashboard-container h2 {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Table Styling */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    text-align: left;
+}
+
+.table thead {
+    background-color: #333;
+    color: white;
+}
+
+.table th, .table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* No Data Message */
+.no-data {
+    color: #888;
+    font-size: 16px;
+}
+
+/* Button Styling */
+.button {
+    display: inline-block;
+    padding: 8px 12px;
+    text-decoration: none;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.button:hover {
+    background-color: #555;
+    color: white;
+}
+
+/* take Attendance */
+
+  
+  /* General Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Attendance Container Styling */
+.attendance-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.attendance-container h1 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.attendance-container h2 {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Student List Styling */
+.student-list {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.student-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+}
+
+/* Button Styling */
+.attendance-button {
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+}
+
+.attendance-button.present {
+    background-color: green;
+}
+
+.attendance-button.absent {
+    background-color: red;
+}
+
+/* View Attendance */
+/* General Reset */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Attendance Container Styling */
+.attendance-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.attendance-container h1 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.attendance-container h2 {
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Attendance List Styling */
+.attendance-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.attendance-item {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    transition: background-color 0.3s ease;
+    text-align: left;
+}
+
+.attendance-item:hover {
+    background-color: #f1f1f1;
+}
+
+.attendance-item a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+
+.attendance-item a:hover {
+    color: #555;
+}
+
+/* No Data Message */
+.no-data {
+    color: #888;
+    font-size: 16px;
+}
